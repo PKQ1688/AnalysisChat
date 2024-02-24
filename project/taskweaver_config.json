@@ -1,0 +1,5 @@
+{
+    "llm.api_type": "qwen",
+    "llm.model": "qwen-max",
+    "llm.api_key": "YOUR_API_KEY"
+}

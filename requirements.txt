@@ -1,2 +1,4 @@
 requests
 loguru
+git+https://github.com/microsoft/TaskWeaver.git
+dashscope
