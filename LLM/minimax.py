@@ -34,8 +34,10 @@ request_body = payload = {
 
 
 def get_llm_response(message: str = "你好", history: List = None):
+    flag = False
     if history is None:
         history = []
+        flag = True
     history.append({"sender_type": "USER", "sender_name": "aileap.use", "text": message})
     request_body["messages"].extend(history)
 
@@ -47,7 +49,10 @@ def get_llm_response(message: str = "你好", history: List = None):
     logger.success(reply)
     logger.debug(history)
 
-    return reply, history
+    if flag:
+        return reply
+    else:
+        return reply, history
 
 
 if __name__ == '__main__':
