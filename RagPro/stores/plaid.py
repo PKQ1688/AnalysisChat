@@ -115,45 +115,6 @@ class PLAIDDocumentStore:
             "PLAIDDocumentStore can only be used as a read-only store. A new index is needed for adding/changing documents"
         )
 
-    def get_all_documents(self):
-        raise NotImplementedError
-
-    def get_all_documents_generator(self):
-        raise NotImplementedError
-
-    def delete_index(self):
-        raise NotImplementedError
-
-    def get_all_labels(self):
-        raise NotImplementedError
-
-    def query_by_embedding(self):
-        raise NotImplementedError
-
-    def get_label_count(self):
-        raise NotImplementedError
-
-    def write_labels(self):
-        raise NotImplementedError
-
-    def delete_documents(self):
-        raise NotImplementedError
-
-    def delete_labels(self):
-        raise NotImplementedError
-
-    def _create_document_field_map(self):
-        raise NotImplementedError
-
-    def get_documents_by_id(self):
-        raise NotImplementedError
-
-    def get_document_by_id(self):
-        raise NotImplementedError
-
-    def update_document_meta(self):
-        raise NotImplementedError
-
     @staticmethod
     def _normalize_scores(docs: List[Document]) -> None:
         """

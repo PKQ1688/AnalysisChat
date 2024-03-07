@@ -3,3 +3,4 @@ loguru
 dashscope
 haystack-ai
 colbert-ai
+rich
