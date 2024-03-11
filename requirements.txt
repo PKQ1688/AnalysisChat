@@ -4,3 +4,6 @@ dashscope
 haystack-ai
 colbert-ai
 rich
+gradio
+gradio_client
+pandasai

@@ -8,6 +8,7 @@
 import pandas as pd
 from haystack import Document
 from haystack import Pipeline
+from haystack import components
 from haystack.components.builders import PromptBuilder
 from haystack.components.retrievers.in_memory import InMemoryBM25Retriever
 from haystack.document_stores.in_memory import InMemoryDocumentStore
