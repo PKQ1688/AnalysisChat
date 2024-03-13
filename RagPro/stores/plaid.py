@@ -13,7 +13,7 @@ import pandas as pd
 from haystack.lazy_imports import LazyImport
 
 from haystack.dataclasses import Document
-from haystack import default_from_dict, default_to_dict
+# from haystack import default_from_dict, default_to_dict
 
 with LazyImport(
         "Run 'pip install libs/colbert' from root dir to install ColBERT lib"

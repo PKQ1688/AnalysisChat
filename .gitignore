@@ -160,3 +160,6 @@ cython_debug/
 .idea/
 
 API_KEY.py
+model/
+index/
+demo_data/

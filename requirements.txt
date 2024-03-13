@@ -7,3 +7,4 @@ rich
 gradio
 gradio_client
 pandasai
+sentence-transformers
